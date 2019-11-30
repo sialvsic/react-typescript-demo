@@ -1,0 +1,80 @@
+[
+  {
+    "timeStamp": 1575115949292,
+    "time": 3350,
+    "hash": "fc70d23bba541291645a",
+    "errors": [],
+    "size": 132518,
+    "assets": [
+      {
+        "name": "bundle.fc70d2.js",
+        "chunks": [
+          0
+        ],
+        "size": 132173,
+        "miniSize": 133029,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 345
+      }
+    ],
+    "chunks": [
+      {
+        "size": 136674,
+        "files": [
+          "bundle.fc70d2.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/react/index.js",
+            "size": 190,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 1
+          },
+          {
+            "name": "./src/index.tsx",
+            "size": 520,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/cjs/react.production.min.js",
+            "size": 6645,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react-dom/index.js",
+            "size": 1363,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+            "size": 119155,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/scheduler/index.js",
+            "size": 198,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+            "size": 5109,
+            "id": 7
+          },
+          {
+            "name": "./src/component/App.tsx",
+            "size": 1386,
+            "id": 8
+          }
+        ]
+      }
+    ]
+  }
+]
