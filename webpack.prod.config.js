@@ -7,10 +7,12 @@ const Visualizer = require("webpack-visualizer-plugin");
 const WebpackMonitor = require("webpack-monitor");
 
 module.exports = {
-  entry: "./src/index.tsx",
+  entry: {
+    app: "./src/index.tsx"
+  },
   mode: "production",
   output: {
-    filename: "bundle.[hash:6].js",
+    filename: "bundle.[chunkhash:6].js",
     path: path.resolve(__dirname, "build")
   },
   devServer: {
@@ -20,20 +22,41 @@ module.exports = {
     extensions: [".tsx", ".ts", ".js"]
   },
   module: {
-    rules: [{ test: /\.tsx?$/, use: ["ts-loader"], exclude: /node_modules/ }]
+    rules: [
+      { test: /\.tsx?$/, use: ["ts-loader"], exclude: /node_modules/ },
+      {
+        test: /\.css$/,
+        use: [
+          // style-loader
+          { loader: "style-loader" },
+          // css-loader
+          {
+            loader: "css-loader",
+            options: {
+              modules: true
+            }
+          },
+          // sass-loader
+          { loader: "sass-loader" }
+        ]
+      }
+    ]
   },
   plugins: [
-    // new CleanWebpackPlugin(['dist/*']) for < v2 versions of CleanWebpackPlugin
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: "React Typescript",
       template: "./index.html"
-    }),
+    })
     // new BundleAnalyzerPlugin()
     // new Visualizer()
-    new WebpackMonitor({
-      launch: true, // -> default 'false'
-      port: 3030, // default -> 8081
-    })
-  ]
+    // new WebpackMonitor({
+    //   launch: true // -> default 'false'
+    // })
+  ],
+  optimization: {
+    splitChunks: {
+      chunks: "all"
+    }
+  }
 };

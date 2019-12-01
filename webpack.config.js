@@ -17,7 +17,22 @@ module.exports = {
     extensions: [".tsx", ".ts", ".js"]
   },
   module: {
-    rules: [{ test: /\.tsx?$/, use: ["ts-loader"], exclude: /node_modules/ }]
+    rules: [
+      { test: /\.tsx?$/, use: ["ts-loader"], exclude: /node_modules/ },
+      {
+        test: /\.css$/,
+        use: [
+          // style-loader
+          { loader: "style-loader" },
+          // css-loader
+          {
+            loader: "css-loader"
+          },
+          // sass-loader
+          { loader: "sass-loader" }
+        ]
+      }
+    ]
   },
   plugins: [
     // new CleanWebpackPlugin(['dist/*']) for < v2 versions of CleanWebpackPlugin

@@ -8,8 +8,7 @@ interface Props {
 
 export default class App extends Component<Props> {
   render() {
-    return
-    <div>
+    return <div>
       <p>
         this is {this.props.name}
       </p>
