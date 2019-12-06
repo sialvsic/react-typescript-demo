@@ -76,5 +76,696 @@
         ]
       }
     ]
+  },
+  {
+    "timeStamp": 1575425588599,
+    "time": 5257,
+    "hash": "92478c80d55b5bb59f98",
+    "errors": [],
+    "size": 132518,
+    "assets": [
+      {
+        "name": "bundle.92478c.js",
+        "chunks": [
+          0
+        ],
+        "size": 132173,
+        "miniSize": 133029,
+        "minified": false
+      },
+      {
+        "name": "index.html",
+        "chunks": [],
+        "size": 345
+      }
+    ],
+    "chunks": [
+      {
+        "size": 136674,
+        "files": [
+          "bundle.92478c.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/react/index.js",
+            "size": 190,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 1
+          },
+          {
+            "name": "./src/index.tsx",
+            "size": 520,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react/cjs/react.production.min.js",
+            "size": 6645,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/react-dom/index.js",
+            "size": 1363,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+            "size": 119155,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/scheduler/index.js",
+            "size": 198,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+            "size": 5109,
+            "id": 7
+          },
+          {
+            "name": "./src/component/App.tsx",
+            "size": 1386,
+            "id": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "timeStamp": 1575425680109,
+    "time": 4475,
+    "hash": "7aa20698f770715ce947",
+    "errors": [
+      "./node_modules/@hife/catui/lib/components/notification/notification.js\nModule not found: Error: Can't resolve '@utils/NotificationContainer' in '/Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@hife/catui/lib/components/notification'\nresolve '@utils/NotificationContainer' in '/Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@hife/catui/lib/components/notification'\n  Parsed request is a module\n  using description file: /Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@hife/catui/package.json (relative path: ./lib/components/notification)\n    Field 'browser' doesn't contain a valid alias configuration\n    resolve as module\n      /Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@hife/catui/lib/components/notification/node_modules doesn't exist or is not a directory\n      /Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@hife/catui/lib/components/node_modules doesn't exist or is not a directory\n      /Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@hife/catui/lib/node_modules doesn't exist or is not a directory\n      /Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@hife/catui/node_modules doesn't exist or is not a directory\n      /Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@hife/node_modules doesn't exist or is not a directory\n      /Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/node_modules doesn't exist or is not a directory\n      /Users/xmly/Workspace/person-learn/node_modules doesn't exist or is not a directory\n      /Users/xmly/Workspace/node_modules doesn't exist or is not a directory\n      /Users/xmly/node_modules doesn't exist or is not a directory\n      /Users/node_modules doesn't exist or is not a directory\n      /node_modules doesn't exist or is not a directory\n      looking for modules in /Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules\n        using description file: /Users/xmly/Workspace/person-learn/react-typescript-demo/package.json (relative path: ./node_modules)\n          Field 'browser' doesn't contain a valid alias configuration\n          using description file: /Users/xmly/Workspace/person-learn/react-typescript-demo/package.json (relative path: ./node_modules/@utils/NotificationContainer)\n            no extension\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@utils/NotificationContainer doesn't exist\n            .tsx\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@utils/NotificationContainer.tsx doesn't exist\n            .ts\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@utils/NotificationContainer.ts doesn't exist\n            .js\n              Field 'browser' doesn't contain a valid alias configuration\n              /Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@utils/NotificationContainer.js doesn't exist\n            as directory\n              /Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@utils/NotificationContainer doesn't exist\n[/Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@hife/catui/lib/components/notification/node_modules]\n[/Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@hife/catui/lib/components/node_modules]\n[/Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@hife/catui/lib/node_modules]\n[/Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@hife/catui/node_modules]\n[/Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@hife/node_modules]\n[/Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/node_modules]\n[/Users/xmly/Workspace/person-learn/node_modules]\n[/Users/xmly/Workspace/node_modules]\n[/Users/xmly/node_modules]\n[/Users/node_modules]\n[/node_modules]\n[/Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@utils/NotificationContainer]\n[/Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@utils/NotificationContainer.tsx]\n[/Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@utils/NotificationContainer.ts]\n[/Users/xmly/Workspace/person-learn/react-typescript-demo/node_modules/@utils/NotificationContainer.js]\n @ ./node_modules/@hife/catui/lib/components/notification/notification.js 6:46-85\n @ ./node_modules/@hife/catui/lib/components/notification/index.js\n @ ./node_modules/@hife/catui/lib/components/index.js\n @ ./src/component/App.tsx\n @ ./src/index.tsx"
+    ],
+    "size": 207261,
+    "assets": [
+      {
+        "name": "bundle.7aa206.js",
+        "chunks": [
+          0
+        ],
+        "size": 207261
+      }
+    ],
+    "chunks": [
+      {
+        "size": 384706,
+        "files": [
+          "bundle.7aa206.js"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/react/index.js",
+            "size": 190,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/prop-types/index.js",
+            "size": 710,
+            "id": 1
+          },
+          {
+            "name": "./node_modules/classnames/index.js",
+            "size": 1198,
+            "id": 2
+          },
+          {
+            "name": "./node_modules/react-dom/index.js",
+            "size": 1363,
+            "id": 3
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Icon/index.js",
+            "size": 332,
+            "id": 4
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_descriptors.js",
+            "size": 184,
+            "id": 5
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_global.js",
+            "size": 369,
+            "id": 6
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_core.js",
+            "size": 123,
+            "id": 7
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_is-object.js",
+            "size": 110,
+            "id": 8
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_fails.js",
+            "size": 104,
+            "id": 9
+          },
+          {
+            "name": "./node_modules/lodash/isObject.js",
+            "size": 733,
+            "id": 10
+          },
+          {
+            "name": "./node_modules/object-assign/index.js",
+            "size": 2108,
+            "id": 11
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Button/index.js",
+            "size": 338,
+            "id": 12
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Loading/index.js",
+            "size": 341,
+            "id": 13
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/PurePortal/index.js",
+            "size": 350,
+            "id": 14
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_has.js",
+            "size": 120,
+            "id": 15
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-iobject.js",
+            "size": 217,
+            "id": 16
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iobject.js",
+            "size": 289,
+            "id": 17
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_defined.js",
+            "size": 162,
+            "id": 18
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-integer.js",
+            "size": 161,
+            "id": 19
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Popover/PopoverTrigger.js",
+            "size": 2716,
+            "id": 20
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Popover/PopoverContent.js",
+            "size": 6561,
+            "id": 21
+          },
+          {
+            "name": "./node_modules/lodash/throttle.js",
+            "size": 2709,
+            "id": 22
+          },
+          {
+            "name": "./node_modules/lodash/_root.js",
+            "size": 300,
+            "id": 23
+          },
+          {
+            "name": "./node_modules/lodash/_Symbol.js",
+            "size": 118,
+            "id": 24
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Portal/index.js",
+            "size": 338,
+            "id": 25
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/utils/index.js",
+            "size": 227,
+            "id": 26
+          },
+          {
+            "name": "./node_modules/react-transition-group/esm/index.js + 15 modules",
+            "size": 52351,
+            "id": 27
+          },
+          {
+            "name": "./node_modules/babel-runtime/helpers/extends.js",
+            "size": 544,
+            "id": 28
+          },
+          {
+            "name": "./src/index.tsx",
+            "size": 520,
+            "id": 30
+          },
+          {
+            "name": "./node_modules/react/cjs/react.production.min.js",
+            "size": 6645,
+            "id": 31
+          },
+          {
+            "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+            "size": 119155,
+            "id": 32
+          },
+          {
+            "name": "./node_modules/scheduler/index.js",
+            "size": 198,
+            "id": 33
+          },
+          {
+            "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+            "size": 5109,
+            "id": 34
+          },
+          {
+            "name": "./src/component/App.tsx",
+            "size": 1650,
+            "id": 35
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/index.js",
+            "size": 961,
+            "id": 36
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Avatar/index.js",
+            "size": 338,
+            "id": 37
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Avatar/Avatar.js",
+            "size": 4782,
+            "id": 38
+          },
+          {
+            "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+            "size": 1621,
+            "id": 39
+          },
+          {
+            "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+            "size": 314,
+            "id": 40
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Button/Button.js",
+            "size": 4296,
+            "id": 41
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Loading/Loading.js",
+            "size": 2684,
+            "id": 42
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Icon/Icon.js",
+            "size": 1997,
+            "id": 43
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Icon/compatible.js",
+            "size": 726,
+            "id": 44
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Icon/IconTypeEnum.js",
+            "size": 60168,
+            "id": 45
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Guidance/index.js",
+            "size": 435,
+            "id": 46
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Guidance/Guidance.js",
+            "size": 5623,
+            "id": 47
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/ElementSelect/index.js",
+            "size": 359,
+            "id": 48
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/ElementSelect/ElementSelect.js",
+            "size": 10083,
+            "id": 49
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/PurePortal/PurePortal.js",
+            "size": 2551,
+            "id": 50
+          },
+          {
+            "name": "./node_modules/@hife/utils/lib/index.js",
+            "size": 399,
+            "id": 51
+          },
+          {
+            "name": "./node_modules/@hife/utils/lib/getScrollBarSize/index.js",
+            "size": 1185,
+            "id": 52
+          },
+          {
+            "name": "./node_modules/@hife/utils/lib/scroll/index.js",
+            "size": 337,
+            "id": 53
+          },
+          {
+            "name": "./node_modules/@hife/utils/lib/scroll/disableScroll.js",
+            "size": 799,
+            "id": 54
+          },
+          {
+            "name": "./node_modules/@hife/utils/lib/scroll/enableScroll.js",
+            "size": 355,
+            "id": 55
+          },
+          {
+            "name": "./node_modules/@hife/utils/lib/getViewportSize/index.js",
+            "size": 417,
+            "id": 56
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Guidance/Step.js",
+            "size": 3237,
+            "id": 57
+          },
+          {
+            "name": "./node_modules/omit.js/es/index.js",
+            "size": 269,
+            "id": 58
+          },
+          {
+            "name": "./node_modules/babel-runtime/core-js/object/assign.js",
+            "size": 94,
+            "id": 59
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/assign.js",
+            "size": 107,
+            "id": 60
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.assign.js",
+            "size": 162,
+            "id": 61
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_export.js",
+            "size": 2349,
+            "id": 62
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_ctx.js",
+            "size": 520,
+            "id": 63
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_a-function.js",
+            "size": 125,
+            "id": 64
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_hide.js",
+            "size": 286,
+            "id": 65
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dp.js",
+            "size": 600,
+            "id": 66
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_an-object.js",
+            "size": 154,
+            "id": 67
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_ie8-dom-define.js",
+            "size": 199,
+            "id": 68
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_dom-create.js",
+            "size": 289,
+            "id": 69
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-primitive.js",
+            "size": 655,
+            "id": 70
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_property-desc.js",
+            "size": 173,
+            "id": 71
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-assign.js",
+            "size": 1281,
+            "id": 72
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys.js",
+            "size": 222,
+            "id": 73
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys-internal.js",
+            "size": 537,
+            "id": 74
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_cof.js",
+            "size": 106,
+            "id": 75
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_array-includes.js",
+            "size": 924,
+            "id": 76
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-length.js",
+            "size": 215,
+            "id": 77
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-absolute-index.js",
+            "size": 223,
+            "id": 78
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_shared-key.js",
+            "size": 159,
+            "id": 79
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_shared.js",
+            "size": 428,
+            "id": 80
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_library.js",
+            "size": 23,
+            "id": 81
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_uid.js",
+            "size": 162,
+            "id": 82
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_enum-bug-keys.js",
+            "size": 160,
+            "id": 83
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gops.js",
+            "size": 42,
+            "id": 84
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-pie.js",
+            "size": 37,
+            "id": 85
+          },
+          {
+            "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-object.js",
+            "size": 132,
+            "id": 86
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Question/index.js",
+            "size": 344,
+            "id": 87
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Question/Question.js",
+            "size": 1915,
+            "id": 88
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Tooltip/index.js",
+            "size": 341,
+            "id": 89
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Tooltip/Tooltip.js",
+            "size": 3441,
+            "id": 90
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Popover/index.js",
+            "size": 587,
+            "id": 91
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Popover/Popover.js",
+            "size": 6143,
+            "id": 92
+          },
+          {
+            "name": "./node_modules/lodash/debounce.js",
+            "size": 6100,
+            "id": 93
+          },
+          {
+            "name": "./node_modules/lodash/now.js",
+            "size": 520,
+            "id": 94
+          },
+          {
+            "name": "./node_modules/lodash/_freeGlobal.js",
+            "size": 173,
+            "id": 95
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 472,
+            "id": 96
+          },
+          {
+            "name": "./node_modules/lodash/toNumber.js",
+            "size": 1572,
+            "id": 97
+          },
+          {
+            "name": "./node_modules/lodash/isSymbol.js",
+            "size": 682,
+            "id": 98
+          },
+          {
+            "name": "./node_modules/lodash/_baseGetTag.js",
+            "size": 792,
+            "id": 99
+          },
+          {
+            "name": "./node_modules/lodash/_getRawTag.js",
+            "size": 1139,
+            "id": 100
+          },
+          {
+            "name": "./node_modules/lodash/_objectToString.js",
+            "size": 565,
+            "id": 101
+          },
+          {
+            "name": "./node_modules/lodash/isObjectLike.js",
+            "size": 614,
+            "id": 102
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Portal/Portal.js",
+            "size": 4082,
+            "id": 103
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Portal/PortalContent.js",
+            "size": 2257,
+            "id": 104
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/utils/kindOf.js",
+            "size": 337,
+            "id": 105
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Tabs/index.js",
+            "size": 435,
+            "id": 106
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Tabs/Tabs.js",
+            "size": 5375,
+            "id": 107
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Tabs/TabPanel.js",
+            "size": 1493,
+            "id": 108
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Modal/index.js",
+            "size": 335,
+            "id": 109
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Modal/Modal.js",
+            "size": 7342,
+            "id": 110
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Drawer/index.js",
+            "size": 338,
+            "id": 111
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Drawer/Drawer.js",
+            "size": 5033,
+            "id": 112
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/notification/index.js",
+            "size": 356,
+            "id": 113
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/notification/notification.js",
+            "size": 1364,
+            "id": 114
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/notification/Content.js",
+            "size": 3115,
+            "id": 115
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Scroll/index.js",
+            "size": 338,
+            "id": 116
+          },
+          {
+            "name": "./node_modules/@hife/catui/lib/components/Scroll/Scroll.js",
+            "size": 4163,
+            "id": 117
+          }
+        ]
+      }
+    ]
   }
 ]
