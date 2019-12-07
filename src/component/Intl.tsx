@@ -1,33 +1,35 @@
 import React, { Component } from 'react'
-import { injectIntl, defineMessages } from 'react-intl'
+import { injectIntl, defineMessages, WrappedComponentProps, MessageDescriptor } from 'react-intl'
 
 interface Props {
 
 }
 
+type TP = Props & WrappedComponentProps;
 interface State {
 
 }
 
 const messages = defineMessages({
   Honolulu: {
-    id: 'publishPicker.Honolulu',
-    defaultMessage: 'Honolulu'
+    id: 'name',
+    defaultMessage: 'star'
   }
 });
 
-class Intl extends Component<Props, State> {
-  constructor(props: Props) {
+class Intl extends Component<TP, State> {
+  constructor(props: TP) {
     super(props)
-    this.tl = (id: string, values: string) => props.intl.formatMessage(id, values);
+    this.tl = (id: MessageDescriptor): string => props.intl.formatMessage(id);
   }
-  private tl;
+
+  private tl: (id: MessageDescriptor) => string;
 
   render() {
-    const name = this.tl(messages.Honolulu);
+
     return (
       <div>
-
+        my name is {this.tl(messages.Honolulu)}
       </div>
     )
   }
