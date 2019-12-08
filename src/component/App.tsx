@@ -3,6 +3,7 @@ import { Avatar } from '@hife/catui';
 import Intl from './Intl';
 import Class from './Class';
 import Para from './Para';
+import CountHook from "./CountHook";
 
 interface Props {
   name: string;
@@ -40,6 +41,7 @@ export default class App extends Component<Props, State> {
         <Intl />
         <Class />
         <Para loading={this.state.loading} />
+        <CountHook />
       </div>
     </div>;
   }
