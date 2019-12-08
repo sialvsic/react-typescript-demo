@@ -1,12 +1,32 @@
 import React, { Component } from "react";
 import { Avatar } from '@hife/catui';
 import Intl from './Intl';
+import Class from './Class';
+import Para from './Para';
 
 interface Props {
   name: string;
 }
 
-export default class App extends Component<Props> {
+interface State {
+  loading: boolean;
+}
+
+export default class App extends Component<Props, State> {
+  constructor(props: Props) {
+    super(props);
+    this.state = {
+      loading: false
+    }
+  }
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({
+        loading: true
+      })
+    }, 1000);
+  }
+
   render() {
     return <div>
       <p>
@@ -18,6 +38,8 @@ export default class App extends Component<Props> {
           size='large'
         />
         <Intl />
+        <Class />
+        <Para loading={this.state.loading} />
       </div>
     </div>;
   }
