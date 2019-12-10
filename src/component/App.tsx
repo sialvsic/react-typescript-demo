@@ -4,6 +4,7 @@ import Intl from './Intl';
 import Class from './Class';
 import Para from './Para';
 import CountHook from "./CountHook";
+import Loading from "./Loading";
 
 interface Props {
   name: string;
@@ -42,6 +43,7 @@ export default class App extends Component<Props, State> {
         <Class />
         <Para loading={this.state.loading} />
         <CountHook />
+        <Loading />
       </div>
     </div>;
   }
