@@ -5,6 +5,7 @@ import Class from './Class';
 import Para from './Para';
 import CountHook from "./CountHook";
 import Loading from "./Loading";
+import Time from "./Time";
 
 interface Props {
   name: string;
@@ -44,6 +45,7 @@ export default class App extends Component<Props, State> {
         <Para loading={this.state.loading} />
         <CountHook />
         <Loading />
+        <Time />
       </div>
     </div>;
   }
