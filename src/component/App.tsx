@@ -6,6 +6,7 @@ import Para from './Para';
 import CountHook from "./CountHook";
 import Loading from "./Loading";
 import Time from "./Time";
+import Lodash from "./Lodash";
 
 interface Props {
   name: string;
