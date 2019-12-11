@@ -23,7 +23,7 @@ module.exports = {
   },
   module: {
     rules: [
-      { test: /\.tsx?$/, use: ["ts-loader"], exclude: /node_modules/ },
+      { test: /\.tsx?$/, use: ["ts-loader"] },
       {
         test: /\.css$/,
         use: [
@@ -47,16 +47,16 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "React Typescript",
       template: "./index.html"
-    })
-    // new BundleAnalyzerPlugin()
+    }),
+    new BundleAnalyzerPlugin()
     // new Visualizer()
     // new WebpackMonitor({
     //   launch: true // -> default 'false'
     // })
-  ],
-  optimization: {
-    splitChunks: {
-      chunks: "all"
-    }
-  }
+  ]
+  // optimization: {
+  //   splitChunks: {
+  //     chunks: "all"
+  //   }
+  // }
 };

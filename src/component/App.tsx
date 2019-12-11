@@ -46,6 +46,7 @@ export default class App extends Component<Props, State> {
         <CountHook />
         <Loading />
         <Time />
+        <Lodash />
       </div>
     </div>;
   }

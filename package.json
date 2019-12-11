@@ -5,15 +5,17 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open",
-    "build": "webpack --config ./webpack.prod.config.js"
+    "build": "webpack --config ./webpack.prod.config.js --display-modules"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hife/catui": "^2.7.0",
+    "@hife/catui": "^2.8.4",
+    "@types/lodash": "^4.14.149",
     "antd": "^3.25.3",
     "axios": "^0.19.0",
+    "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
